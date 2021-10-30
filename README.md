@@ -117,4 +117,42 @@ K-means Elbow Curve
 
 3 & 4 are decreasing sharply. So, 3 and 4 is the optimal K in Elbow curve
  
+->EM(GMM)
 
+<img width="451" alt="캡처11" src="https://user-images.githubusercontent.com/74089524/139523542-d8e6980f-b024-4d64-8b0f-895df8a81773.PNG">
+
+Comparing median value
+
+<img width="405" alt="캡처12" src="https://user-images.githubusercontent.com/74089524/139523569-3eae70af-2164-4fd3-ba38-b4bb596cf973.PNG">
+
+->Clarans
+
+<img width="345" alt="캡처13" src="https://user-images.githubusercontent.com/74089524/139523612-fdc757ae-2078-4d78-a06b-2a51c3cc422d.PNG">
+
+Comparing with median value
+
+<img width="398" alt="캡처14" src="https://user-images.githubusercontent.com/74089524/139523615-36add5e2-7eca-4e41-81b7-a648970678da.PNG">
+
+->DBSCAN
+
+<img width="511" alt="캡처15" src="https://user-images.githubusercontent.com/74089524/139523658-3cf1f3fa-fcfb-49be-b4ae-47e2de85e039.PNG">
+
+Comaring with median value
+
+<img width="331" alt="캡처16" src="https://user-images.githubusercontent.com/74089524/139523660-0a6430e6-830a-4fc7-8fe1-8e3d846099aa.PNG">
+
+DB scan Elbow curve
+
+<img width="384" alt="캡처17" src="https://user-images.githubusercontent.com/74089524/139523664-ae24d2a1-da9c-4c67-8096-e4303818b5b2.PNG">
+
+Through this graph, eps=0.01, min_samples=19000 can be determined as appropriate hyperparameter values
+
+->MeanShift
+
+<img width="359" alt="캡처18" src="https://user-images.githubusercontent.com/74089524/139523702-35942c61-26be-473a-b5dc-f8f7b08a9c46.PNG">
+
+Comparing with median value
+
+<img width="342" alt="캡처19" src="https://user-images.githubusercontent.com/74089524/139523703-c2047629-2117-4587-8237-778c6d496b3c.PNG">
+
+-->Our measurement is silhouette score with Euclid & Manhattan & L2 & L1 and Purity Score
